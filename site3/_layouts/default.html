@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<title>BLOG</title>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="blog.css">
+
+<body class="w3-light-grey">
+
+<!-- Navbar (remains on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">THE AUDIO BLOG</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#audio" class="w3-bar-item w3-button">AUDIO</a>
+      <a href="#articles" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ARTICLES</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#audio" onclick="w3_close()" class="w3-bar-item w3-button">AUDIO</a>
+  <a href="#articles" onclick="w3_close()" class="w3-bar-item w3-button">ARTICLES</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:52px">
+    <span style="color: lightblue" class="w3-jumbo w3-hide-small">Beyond the Lyrics</span><br></br>
+    <br></br>
+    <span class="w3-large">The ultimate guide of the music industry.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="audio">
+  <h3 class="w3-center">MOST POPULAR HITS</h3>
+  <p class="w3-center w3-large">Audio Channel</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-power-off w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">"Thunder"</p>
+      <p class="w3-medium">Imagine Dragons</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">"Passionfruit"</p>
+      <p class="w3-medium">Imagine Dragons</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">"Feels"</p>
+      <p class="w3-medium">Calvin Harris</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">"Unforgettable"</p>
+      <p class="w3-medium">French Montana</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12" id="articles">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://www.thedapifer.com/wp-content/uploads/2016/06/ASAP-Rocky-X-JW-Anderson-AWGE-Collection-The-Dapifer-1.jpg" alt="ASAP" style="width:100%">
+    <div class="w3-container">
+      <h3><b>BLOG ENTRY</b></h3>
+      <h5>Title description, <span class="w3-opacity">January 7, 2017</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="http://therapfest.com/wp-content/uploads/2017/07/http-hypebeast.com-image-2017-06-french-montana-jungle-rules-release-date.jpg" alt="FM" style="width:100%">
+    <div class="w3-container">
+      <h3><b>BLOG ENTRY</b></h3>
+      <h5>Title description, <span class="w3-opacity">January 2, 2017</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="http://i-likeitalot.com/wp-content/uploads/2014/03/130506-chance-rapper-540x359.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>My Name</b></h4>
+      <p>Just me, myself and I, exploring the universe of music. Lorem ipsum and mauris neque quam blog.</p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card-2 w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <span class="w3-large">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <span class="w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card-2 w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Music</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hip Hop</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hits</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Global</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Rap</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Beats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Top</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Lyrics</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Electronic</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Charts</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Updates</span>
+    </p>
+    </div>
+  </div>
+
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+</body>
+</html>

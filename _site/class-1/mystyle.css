@@ -1,0 +1,168 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+*  body, h1,h2,h3,h4,h5,h6 {
+		font-family: "Montserrat", sans-serif;
+		}
+	
+	body {
+		margin: 0;
+		background-color: #E7E8EE;
+		}
+	
+	ul.menu {
+	    list-style-type: none;
+	    margin: 0;
+	    margin-top: 5px;
+	    margin-bottom: 10px;
+	    height: 500px;
+	    padding: 0;
+	    width: 20%;
+	    background-color: #939E6B;
+	    color: white;
+	    position: absolute;
+	    height: 1300px;
+	    text-align: center;
+	    overflow: auto;
+		}
+	
+	ul.menu li a {
+		display: block;
+    	color: #000;
+    	padding: 8px 16px;
+    	text-decoration: none;
+		}
+	
+	ul.menu li a:hover:not(.active) {
+    	background-color: #555;
+    	color: white;
+		}
+	
+	.header {
+	    text-align: center;
+	    padding: 7px;
+	    border-style: solid;
+    	border-width: medium;
+	    background-color: #858BA8;
+	   	color: white;
+		}
+
+	ul.aside {
+	    list-style-type: none;
+	    text-align: center;
+	    margin-top: 5px;
+	    right: 0;
+	    color: white;
+	    padding: 0;
+	    width: 20%;
+	    background-color: #939E6B;
+	    position: absolute;
+	    height: 1300px;
+	    overflow: auto;
+		}
+	
+	ul.aside li a {
+		display: block;
+    	color: #000;
+    	padding: 8px 16px;
+    	text-decoration: none;
+		}
+	
+	ul.aside li a:hover:not(.active) {
+    	background-color: #555;
+    	color: white;
+		}
+	
+	.content {
+    	margin-left: 21%;
+    	margin-right: 21%;
+    	margin-top: 5px;
+    	padding: 1px 16px;
+    	height: 1300px;
+	    background-color: #939E6B;
+		}
+	.hello {
+		border-style: solid white;
+		}
+@media screen and (max-width: 900px) {
+    ul.menu {
+        width: 100%;
+        height: 10%;
+        position: relative;
+    	}
+    ul.menu li a {
+        float: left;
+        padding: 15px;
+    	}
+    
+    ul.aside {
+        width: 100%;
+        height: 10%;
+        position: relative;
+    	}
+    ul.aside li a {
+        float: left;
+        padding: 15px;
+    	}
+	div.content { 
+		margin-left: 0;
+		margin-right: 0;
+		}
+	}
+
+@media screen and (max-width: 400px) {
+    ul.menu li a {
+        text-align: center;
+        float: none;
+    }
+    ul.aside li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+	.flexbox {
+		text-align: center;
+		border-style: solid;
+    	border-width: medium;
+		}
+	
+	.ocean {
+		margin-left: 50px;
+		margin-bottom: 100px;
+		}
+	
+	.info {
+        background-color: black;
+        text-align: center;
+        border-style: solid;
+        padding: 10px;
+        color: white;
+    	}
+    
+    .aula {
+	  	float: left;
+	  	margin-top: 110px;
+	  	margin-left: 60px;
+	  	margin-right: 40px;  	
+		}
+	
+    .aup {
+        float: left;
+        margin-top: 110px;
+        margin-right: 40px;
+    	}
+    
+	.canvas {
+		float: left;
+		margin-top: 110px;
+		margin-right: 40px;
+		}
+	
+	
+	.footer {
+		margin-top: 5px;
+		text-align: center;
+	    background-color: #858BA8;
+	    color: white;
+	    padding: 7px;
+	    bottom: 0;
+		}
